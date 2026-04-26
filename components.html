@@ -1,689 +1,351 @@
+HTML
 <!DOCTYPE html>
-
 <html lang="en">
-
 <head>
-
   <meta charset="UTF-8">
-
   <title>Components – Comm Arts</title>
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link href="https://fonts.googleapis.com/css?family=Brawler%7CPoppins:400,500&display=swap" rel="stylesheet">
-
   <link rel="stylesheet" href="css/main.css">
-
 </head>
-
 <body class="design-system">
-
   <aside class="sidebar-nav">
-
     <div class="sidebar-logo">
-
-      <img src="images/logo.png" alt="Logo">
-
+      <img src="images/logo.png" alt="Communication Arts Logo">
     </div>
-
     <h2>Typography</h2>
-
     <ul class="system-nav">
-
       <li><a href="#body">body</a></li>
-
       <li><a href="#headings">h1, h2</a></li>
-
     </ul>
-
     <h2>Atoms</h2>
-
     <ul class="system-nav">
-
       <li><a href="#wordmark">wordmark</a></li>
-
       <li><a href="#nav-toggle">nav-toggle</a></li>
-
       <li><a href="#section-heading">section-heading</a></li>
-
       <li><a href="#action-link">action-link</a></li>
-
       <li><a href="#icon">icon--circle</a></li>
-
     </ul>
-
     <h2>Page Header</h2>
-
     <ul class="system-nav">
-
       <li><a href="#page-header">page-header</a></li>
-
     </ul>
-
     <h2>Main Nav</h2>
-
     <ul class="system-nav">
-
       <li><a href="#main-nav">main-nav</a></li>
-
       <li><a href="#main-nav-list">main-nav__list</a></li>
-
     </ul>
-
     <h2>Page Footer</h2>
-
     <ul class="system-nav">
-
       <li><a href="#footer">page-footer</a></li>
-
       <li><a href="#social">social-list</a></li>
-
     </ul>
-
   </aside>
 
   <main class="component-page">
-
     <h1 class="page-title">Web Design System</h1>
-
     <p class="page-description">
-
       This is a collection of components based on the 
-
       <a href="https://www.commarts.com/">Communication Arts</a> website.
-
     </p>
 
-    <h2 class="section-title">Typography</h2>
-
-    <!-- BODY -->
-
     <section id="body" class="component">
-
+      <h2 class="section-title">Typography: Body</h2>
       <div class="component__code">
-
         <p>Body text example</p>
-
       </div>
-
       <div class="component__img">
-
-        <img src="images/body.png" alt="Body">
-
+        <img src="images/body.png" alt="Preview of body typography">
       </div>
-
       <div class="component__code">
-
         <div class="issue">
-
           <p class="issue__intro">
-
             Subscribers to <em>Communication Arts</em> can access every page of every issue we’ve ever published.
-
           </p>
-
           <div class="issue__grid">
-
             <div class="issue__image">
-
-              <img src="images/ca.png" alt="Issue">
-
+              <img src="images/ca.png" alt="Communication Arts Magazine Cover">
             </div>
-
             <div class="issue__content">
-
               <p class="issue__meta">Most recent issue: March/April 2026</p>
-
               <h2 class="issue__title">Interactive Annual | 32</h2>
-
               <p class="issue__text">
-
                 Features the award-winning projects from our 32nd Annual Interactive Competition...
-
               </p>
-
               <p class="issue__text">
-
                 This is one issue that all creative professionals won’t want to miss!
-
               </p>
-
               <div class="issue__links">
-
                 <a href="#">View the winners gallery.</a>
-
                 <a href="#">Meet the jurors</a>
-
               </div>
-
               <div class="issue__buttons">
-
                 <a href="#">View web issue</a>
-
                 <a href="#">View online PDF issue</a>
-
                 <a href="#">Download PDF issue</a>
-
                 <a href="#">Buy this issue</a>
-
               </div>
-
             </div>
-
           </div>
-
         </div>
-
       </div>
-
     </section>
-
-    <!-- HEADINGS -->
 
     <section id="headings" class="component">
-
+      <h2 class="section-title">Typography: Headings</h2>
       <div class="component__code">
-
-        <h1>Heading 1</h1>
-
-        <h2>Heading 2</h2>
-
+        <h2 class="example-h1">Heading 1 (Example)</h2>
+        <h2 class="example-h2">Heading 2 (Example)</h2>
       </div>
-
       <div class="component__img">
-
-        <img src="images/headings.png" alt="Headings">
-
+        <img src="images/headings.png" alt="Preview of heading styles">
       </div>
-
       <div class="component__code">
-
         <div class="section-heading-block">
-
           Ideas Are Like Children. You Can't Trust Them With Just Anybody.<br><br>
-
           <span style="font-size: 0.8em; font-weight: normal;">
-
             Through the story behind adapting A River Runs Through It into film,
-
             Ernie Schenck stresses the importance of inner validation.
-
           </span>
-
         </div>
-
       </div>
-
     </section>
-
-    <!-- PAGE HEADER -->
-
-    <h2 class="section-title">Page Header</h2>
 
     <section id="page-header" class="component">
-
+      <h2 class="section-title">Page Header</h2>
       <div class="component__code">
-
-        <h2>.page-header</h2>
-
+        <h3>.page-header</h3>
       </div>
-
       <div class="component__img">
-
-        <img src="images/page-header.png" alt="Header">
-
+        <img src="images/page-header.png" alt="Preview of site header">
       </div>
-
       <div class="component__code">
-
         <header class="page-header">
-
           <div class="page-header-left">
-
             <a href="#">DISCIPLINES</a>
-
             <a href="#">GALLERY</a>
-
             <a href="#">MAGAZINE</a>
-
             <a href="#">ENTER COMPETITION</a>
-
           </div>
-
           <div class="page-header-right">
-
             <a href="#">Subscribe</a>
-
             <a href="#">Get Our Newsletter</a>
-
             <div class="search-icon"></div>
-
             <div class="nav-toggle">
-
               <span></span>
-
               <span></span>
-
               <span></span>
-
             </div>
-
           </div>
-
         </header>
-
       </div>
-
     </section>
-
-    <!-- MAIN NAV -->
-
-    <h2 class="section-title">Main Nav</h2>
 
     <section id="main-nav" class="component">
-
+      <h2 class="section-title">Main Nav</h2>
       <div class="component__code">
-
         <nav class="main-nav">
-
           <ul class="main-nav__list">
-
-            <li><h2>.main-nav</h2></li>
-
+            <li><h3>.main-nav</h3></li>
           </ul>
-
         </nav>
-
       </div>
-
       <div class="component__img">
-
-        <img src="images/main-nav.png" alt="Nav">
-
+        <img src="images/main-nav.png" alt="Preview of main navigation">
       </div>
-
       <div class="component__code">
-
         <nav class="main-nav">
-
           <div class="main-nav-top">
-
             <a href="#">DISCIPLINES</a>
-
             <a href="#">GALLERY</a>
-
             <a href="#">MAGAZINE</a>
-
             <a href="#">ENTER COMPETITION</a>
-
           </div>
-
         </nav>
-
       </div>
-
       <div class="component__code">
-
         <section class="main-hero">
-
           <div class="hero-ca">ca</div>
-
           <div class="hero-right">
-
             <h2 class="hero-title">COMMUNICATION ARTS</h2>
-
             <p class="hero-text">
-
               Exceptional <a href="#">Design</a>, <a href="#">Advertising</a>,
-
               <a href="#">Illustration</a>, <a href="#">Photography</a>,
-
               <a href="#">Interactive</a> and <a href="#">Typography</a>, since 1959.
-
             </p>
-
           </div>
-
         </section>
-
       </div>
-
     </section>
-
-    <!-- FIXED SECTION -->
 
     <section id="main-nav-list" class="component">
-
+      <h2 class="section-title">Main Nav List</h2>
       <div class="component__code">
-
         <ul class="main-nav__list">
-
-          <li><h2>.main-nav__list</h2></li>
-
+          <li><h3>.main-nav__list</h3></li>
         </ul>
-
       </div>
-
       <div class="component__img">
-
-        <img src="images/main-nav-list.png" alt="Nav list">
-
+        <img src="images/main-nav-list.png" alt="Preview of navigation list">
       </div>
-
       <div class="component__code">
-
         <nav class="main-nav">
-
           <div class="main-nav-top">
-
             <a href="#">DISCIPLINES</a>
-
             <a href="#">GALLERY</a>
-
             <a href="#">MAGAZINE</a>
-
             <a href="#">ENTER COMPETITION</a>
-
           </div>
-
         </nav>
-
       </div>
-
     </section>
 
-    <!-- ATOMS -->
-
-    <h2 class="section-title">Atoms</h2>
-
     <section id="wordmark" class="component">
-
+      <h2 class="section-title">Atom: Wordmark</h2>
       <div class="component__code">
-
-        <h2 class="wordmark">.wordmark</h2>
-
+        <h3 class="wordmark">.wordmark</h3>
       </div>
-
       <div class="component__img">
-
-        <img class="ui-image--small" src="images/wordmark.png">
-
+        <img class="ui-image--small" src="images/wordmark.png" alt="Wordmark thumbnail">
       </div>
-
       <div class="component__code">
-
         <div class="wordmark-ca">ca</div>
-
       </div>
-
     </section>
 
     <section id="nav-toggle" class="component">
-
+      <h2 class="section-title">Atom: Nav Toggle</h2>
       <div class="component__code">
-
-        <h2>.nav-toggle</h2>
-
+        <h3>.nav-toggle</h3>
       </div>
-
       <div class="component__img">
-
-        <img class="ui-image--tiny" src="images/nav-toggle.png">
-
+        <img class="ui-image--tiny" src="images/nav-toggle.png" alt="Hamburger menu icon preview">
       </div>
-
       <div class="component__code nav-toggle-center">
-
         <div class="nav-toggle">
-
           <span></span>
-
           <span></span>
-
           <span></span>
-
         </div>
-
       </div>
-
     </section>
 
     <section id="section-heading" class="component">
-
+      <h2 class="section-title">Atom: Section Heading</h2>
       <div class="component__code">
-
-        <h2>.section-heading</h2>
-
+        <h3>.section-heading</h3>
       </div>
-
       <div class="component__img">
-
-        <img src="images/section-heading.png">
-
+        <img src="images/section-heading.png" alt="Section heading preview">
       </div>
-
       <div class="component__code">
-
         <div class="section-heading-block">
-
           Exceptional <a href="#">Design</a>, <a href="#">Advertising</a>,
-
           <a href="#">Illustration</a>, <a href="#">Photography</a>,
-
           <a href="#">Interactive</a> and <a href="#">Typography</a>, since 1959.
-
         </div>
-
       </div>
-
     </section>
 
     <section id="action-link" class="component">
-
+      <h2 class="section-title">Atom: Action Link</h2>
       <div class="component__code">
-
-        <h2>.action-link</h2>
-
+        <h3>.action-link</h3>
       </div>
-
       <div class="component__code">
-
         <a href="#" class="action-link">Action Link Example</a>
-
       </div>
-
     </section>
 
     <section id="icon" class="component">
-
+      <h2 class="section-title">Atom: Icon Circle</h2>
       <div class="component__code">
-
-        <h2>.icon-circle</h2>
-
+        <h3>.icon-circle</h3>
       </div>
-
       <div class="component__img">
-
-        <img class="ui-image--tiny" src="images/icon-circle.png">
-
+        <img class="ui-image--tiny" src="images/icon-circle.png" alt="Circle icon preview">
       </div>
-
       <div class="component__code">
-
         <div class="icon-center">
-
           <div class="icon-circle-big">
-
-
             <div style="width:100%;height:100%;background:#ccc;border-radius:50%;display:flex;align-items:center;justify-content:center;">
-
-              <svg width="24" height="24" viewBox="0 0 24 24">
-
+              <svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm5 5a5 5 0 110 10 5 5 0 010-10zm6.5-.9a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"/>
-
               </svg>
-
             </div>
-
           </div>
-
         </div>
-
       </div>
-
     </section>
-
-    <!-- FOOTER -->
-
-    <h2 class="section-title">Page Footer</h2>
 
     <section id="footer" class="component">
-
+      <h2 class="section-title">Page Footer</h2>
       <div class="component__code">
-
-        <h2>.page-footer</h2>
-
+        <h3>.page-footer</h3>
       </div>
-
       <div class="component__img">
-
-        <img src="images/page-footer.png">
-
+        <img src="images/page-footer.png" alt="Site footer preview">
       </div>
-
       <div class="component__code">
-
         <footer class="page-footer">
-
           <div class="footer-left">
-
             <div class="wordmark-ca">ca</div>
-
             <div>
-
               <h2>Communication Arts</h2>
-
               <p>©2026 Coyne & Blanchard, Inc.</p>
-
               <p>All Rights Reserved</p>
-
             </div>
-
           </div>
-
           <div class="footer-center">
-
-
           </div>
-
           <div class="footer-right">
-
             <h3>Subscribe Now</h3>
-
             <a href="#">Subscribe →</a>
-
             <a href="#">Student →</a>
-
             <a href="#">Gift →</a>
-
           </div>
-
         </footer>
-
       </div>
-
     </section>
-
-    <!-- SOCIAL -->
 
     <section id="social" class="component">
-
+      <h2 class="section-title">Social List</h2>
       <div class="component__code">
-
         <ul class="social-list">
-
-          <li><h2>.social-list</h2></li>
-
+          <li><h3>.social-list</h3></li>
         </ul>
-
       </div>
-
       <div class="component__img">
-
-        <img src="images/social-list.png">
-
+        <img src="images/social-list.png" alt="Social media links preview">
       </div>
-
       <div class="component__code">
-
         <div style="background:#eee; padding:40px 20px; text-align:center;">
-
           <h2 style="margin-bottom:30px; letter-spacing:2px;">
-
             FOLLOW COMMUNICATION ARTS
-
           </h2>
-
-          <ul style="display:flex; justify-content:center; gap:30px;">
-
+          <ul style="display:flex; justify-content:center; gap:30px; list-style: none; padding: 0;">
             <li style="width:80px;height:80px;border:2px solid #000;border-radius:50%;display:flex;align-items:center;justify-content:center;">
-
-              <!-- Facebook -->
-
-              <svg width="20" height="20" viewBox="0 0 24 24"><path d="M22 12a10 10 0 10-11.5 9.9v-7H7v-2.9h3.5V9.4c0-3.5 2.1-5.4 5.3-5.4 1.5 0 3 .3 3 .3v3.3h-1.7c-1.7 0-2.3 1.1-2.3 2.2v2.7H19l-.6 2.9h-3.2v7A10 10 0 0022 12z"/></svg>
-
+              <svg width="20" height="20" viewBox="0 0 24 24" aria-label="Facebook"><path d="M22 12a10 10 0 10-11.5 9.9v-7H7v-2.9h3.5V9.4c0-3.5 2.1-5.4 5.3-5.4 1.5 0 3 .3 3 .3v3.3h-1.7c-1.7 0-2.3 1.1-2.3 2.2v2.7H19l-.6 2.9h-3.2v7A10 10 0 0022 12z"/></svg>
             </li>
-
             <li style="width:80px;height:80px;border:2px solid #000;border-radius:50%;display:flex;align-items:center;justify-content:center;">
-
-              <!-- Twitter -->
-
-              <svg width="20" height="20" viewBox="0 0 24 24"><path d="M22 5.9c-.8.4-1.6.6-2.5.8.9-.6 1.5-1.4 1.8-2.4-.9.5-1.8.9-2.8 1.1A4.4 4.4 0 0016 4c-2.5 0-4.5 2.1-4.5 4.6 0 .4 0 .8.1 1.1-3.7-.2-7-2-9.2-4.7-.4.7-.6 1.4-.6 2.2 0 1.6.8 3 2 3.9-.7 0-1.4-.2-2-.5v.1c0 2.2 1.5 4 3.6 4.4-.4.1-.8.2-1.2.2-.3 0-.6 0-.9-.1.6 1.9 2.4 3.3 4.5 3.3A8.9 8.9 0 012 19.5 12.6 12.6 0 008.3 21c7.6 0 11.7-6.4 11.7-12v-.5c.8-.6 1.5-1.3 2-2.1z"/></svg>
-
+              <svg width="20" height="20" viewBox="0 0 24 24" aria-label="Twitter"><path d="M22 5.9c-.8.4-1.6.6-2.5.8.9-.6 1.5-1.4 1.8-2.4-.9.5-1.8.9-2.8 1.1A4.4 4.4 0 0016 4c-2.5 0-4.5 2.1-4.5 4.6 0 .4 0 .8.1 1.1-3.7-.2-7-2-9.2-4.7-.4.7-.6 1.4-.6 2.2 0 1.6.8 3 2 3.9-.7 0-1.4-.2-2-.5v.1c0 2.2 1.5 4 3.6 4.4-.4.1-.8.2-1.2.2-.3 0-.6 0-.9-.1.6 1.9 2.4 3.3 4.5 3.3A8.9 8.9 0 012 19.5 12.6 12.6 0 008.3 21c7.6 0 11.7-6.4 11.7-12v-.5c.8-.6 1.5-1.3 2-2.1z"/></svg>
             </li>
-
             <li style="width:80px;height:80px;border:2px solid #000;border-radius:50%;display:flex;align-items:center;justify-content:center;">
-
-              <!-- Instagram -->
-
-              <svg width="20" height="20" viewBox="0 0 24 24"><path d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm5 5a5 5 0 110 10 5 5 0 010-10zm6.5-.9a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"/></svg>
-
+              <svg width="20" height="20" viewBox="0 0 24 24" aria-label="Instagram"><path d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm5 5a5 5 0 110 10 5 5 0 010-10zm6.5-.9a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"/></svg>
             </li>
-
             <li style="width:80px;height:80px;border:2px solid #000;border-radius:50%;display:flex;align-items:center;justify-content:center;">
-
-              <!-- LinkedIn -->
-
-              <svg width="20" height="20" viewBox="0 0 24 24"><path d="M4.9 3.5A2.4 2.4 0 112.5 6a2.4 2.4 0 012.4-2.5zM3 8h3.8v12H3zm7 0h3.6v1.6h.1c.5-1 1.8-2 3.6-2 3.8 0 4.5 2.5 4.5 5.7V20H18v-6.1c0-1.5 0-3.4-2-3.4s-2.3 1.6-2.3 3.3V20H10z"/></svg>
-
+              <svg width="20" height="20" viewBox="0 0 24 24" aria-label="LinkedIn"><path d="M4.9 3.5A2.4 2.4 0 112.5 6a2.4 2.4 0 012.4-2.5zM3 8h3.8v12H3zm7 0h3.6v1.6h.1c.5-1 1.8-2 3.6-2 3.8 0 4.5 2.5 4.5 5.7V20H18v-6.1c0-1.5 0-3.4-2-3.4s-2.3 1.6-2.3 3.3V20H10z"/></svg>
             </li>
-
             <li style="width:80px;height:80px;border:2px solid #000;border-radius:50%;display:flex;align-items:center;justify-content:center;">
-
-              <!-- Pinterest -->
-
-              <svg width="20" height="20" viewBox="0 0 24 24"><path d="M12 2C6.5 2 3 5.6 3 10c0 2.8 1.6 5.2 4.1 6.1-.1-.5-.2-1.4 0-2l1-4c-.2-.4-.4-1-.4-1.6 0-1.5.9-2.6 2-2.6 1 0 1.4.8 1.4 1.7 0 1-.6 2.5-.9 3.9-.3 1.2.6 2.2 1.8 2.2 2.1 0 3.7-2.2 3.7-5.3 0-2.8-2-4.8-5-4.8-3.4 0-5.4 2.6-5.4 5.3 0 1 .4 2.1 1 2.7.1.1.1.2.1.3l-.4 1.6c-.1.2-.2.3-.4.2-1.6-.8-2.6-3.1-2.6-5 0-4.1 3-7.8 8.7-7.8 4.6 0 8.1 3.3 8.1 7.7 0 4.6-2.9 8.3-7 8.3-1.4 0-2.7-.7-3.1-1.5l-.8 3c-.3 1.1-1.1 2.4-1.7 3.2.9.3 1.8.4 2.8.4 5.5 0 9-3.6 9-8 0-4.4-3.5-8-9-8z"/></svg>
-
+              <svg width="20" height="20" viewBox="0 0 24 24" aria-label="Pinterest"><path d="M12 2C6.5 2 3 5.6 3 10c0 2.8 1.6 5.2 4.1 6.1-.1-.5-.2-1.4 0-2l1-4c-.2-.4-.4-1-.4-1.6 0-1.5.9-2.6 2-2.6 1 0 1.4.8 1.4 1.7 0 1-.6 2.5-.9 3.9-.3 1.2.6 2.2 1.8 2.2 2.1 0 3.7-2.2 3.7-5.3 0-2.8-2-4.8-5-4.8-3.4 0-5.4 2.6-5.4 5.3 0 1 .4 2.1 1 2.7.1.1.1.2.1.3l-.4 1.6c-.1.2-.2.3-.4.2-1.6-.8-2.6-3.1-2.6-5 0-4.1 3-7.8 8.7-7.8 4.6 0 8.1 3.3 8.1 7.7 0 4.6-2.9 8.3-7 8.3-1.4 0-2.7-.7-3.1-1.5l-.8 3c-.3 1.1-1.1 2.4-1.7 3.2.9.3 1.8.4 2.8.4 5.5 0 9-3.6 9-8 0-4.4-3.5-8-9-8z"/></svg>
             </li>
-
             <li style="width:80px;height:80px;border:2px solid #000;border-radius:50%;display:flex;align-items:center;justify-content:center;">
-
-              <!-- RSS -->
-
-              <svg width="20" height="20" viewBox="0 0 24 24"><path d="M6.2 17.8a2.2 2.2 0 11-2.2 2.2 2.2 2.2 0 012.2-2.2zM4 10v3a7 7 0 017 7h3c0-5.5-4.5-10-10-10zm0-6v3c8.3 0 15 6.7 15 15h3C22 12.4 13.6 4 4 4z"/></svg>
-
+              <svg width="20" height="20" viewBox="0 0 24 24" aria-label="RSS"><path d="M6.2 17.8a2.2 2.2 0 11-2.2 2.2 2.2 2.2 0 012.2-2.2zM4 10v3a7 7 0 017 7h3c0-5.5-4.5-10-10-10zm0-6v3c8.3 0 15 6.7 15 15h3C22 12.4 13.6 4 4 4z"/></svg>
             </li>
-
           </ul>
-
         </div>
-
       </div>
-
     </section>
-
   </main>
-
 </body>
-
 </html>
