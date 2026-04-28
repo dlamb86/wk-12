@@ -1,4 +1,3 @@
-Markdown
 # Communication Arts Design System Study
 
 A Design System Study
