@@ -1,24 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
-  <title>Comm Arts</title>
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Communication Arts | Design, Advertising, Illustration, Photography</title>
+  
   <link href="https://fonts.googleapis.com/css?family=Brawler%7CPoppins:400,500&display=swap" rel="stylesheet">
-
+  
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
+<body class="home-page">
 
-<body>
+  <header class="page-header">
+    <nav class="page-header-left">
+      <a href="#">DISCIPLINES</a>
+      <a href="#">GALLERY</a>
+      <a href="#">MAGAZINE</a>
+      <a href="#">ENTER COMPETITION</a>
+    </nav>
+    
+    <nav class="page-header-right">
+      <a href="#">Subscribe</a>
+      <a href="#">Get Our Newsletter</a>
+      <div class="search-icon"></div>
+      <button class="nav-toggle" aria-label="Toggle Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </nav>
+  </header>
 
-  <main class="container">
-    <h1>Comm Arts</h1>
-    <p><a href="components.html">View Design System</a></p>
+  <main>
+    <section class="main-hero">
+      <div class="hero-ca">ca</div>
+      <div class="hero-right">
+        <h1 class="hero-title">COMMUNICATION ARTS</h1>
+        <p class="hero-text">
+          Exceptional <a href="#">Design</a>, <a href="#">Advertising</a>,
+          <a href="#">Illustration</a>, <a href="#">Photography</a>,
+          <a href="#">Interactive</a> and <a href="#">Typography</a>, since 1959.
+        </p>
+      </div>
+    </section>
+
+    <div class="container">
+      <section class="featured-article">
+        <div class="section-heading-block">
+          <h2>Ideas Are Like Children. You Can't Trust Them With Just Anybody.</h2>
+          <p>
+            Through the story behind adapting <em>A River Runs Through It</em> into film,
+            Ernie Schenck stresses the importance of inner validation.
+          </p>
+          <a href="#" class="action-link">Read the Article</a>
+        </div>
+      </section>
+
+      <hr>
+
+      <section class="current-issue-preview">
+        <div class="issue">
+          <p class="issue__intro">
+            Subscribers to <em>Communication Arts</em> can access every page of every issue we’ve ever published.
+          </p>
+          <div class="issue__grid">
+            <div class="issue__image">
+              <img src="images/ca.png" alt="March/April 2026 Issue Cover">
+            </div>
+            <div class="issue__content">
+              <p class="issue__meta">Most recent issue: March/April 2026</p>
+              <h2 class="issue__title">Interactive Annual | 32</h2>
+              <p class="issue__text">
+                Features the award-winning projects from our 32nd Annual Interactive Competition. 
+                This is one issue that all creative professionals won’t want to miss!
+              </p>
+              <div class="issue__links">
+                <a href="#">View the winners gallery</a>
+                <a href="#">Meet the jurors</a>
+              </div>
+              <div class="issue__buttons">
+                <a href="#" class="btn">View web issue</a>
+                <a href="#" class="btn">Buy this issue</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section style="text-align: center; padding: 40px 0;">
+         <p><a href="components.html" style="text-decoration: underline; color: #888; font-size: 0.9rem;">View Design System / Components</a></p>
+      </section>
+    </div>
   </main>
+
+  <footer class="page-footer">
+    <div class="footer-left">
+      <div class="wordmark-ca">ca</div>
+      <div class="footer-brand-info">
+        <h2>Communication Arts</h2>
+        <p>©2026 Coyne & Blanchard, Inc.</p>
+        <p>All Rights Reserved</p>
+      </div>
+    </div>
+
+    <div class="footer-center">
+        <h3>FOLLOW COMMUNICATION ARTS</h3>
+        <ul class="social-list" style="display:flex; gap:15px; list-style:none; padding:0; justify-content: center;">
+          <li>
+            <a href="#" aria-label="Facebook">
+              <svg width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M22 12a10 10 0 10-11.5 9.9v-7H7v-2.9h3.5V9.4c0-3.5 2.1-5.4 5.3-5.4 1.5 0 3 .3 3 .3v3.3h-1.7c-1.7 0-2.3 1.1-2.3 2.2v2.7H19l-.6 2.9h-3.2v7A10 10 0 0022 12z"/></svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" aria-label="Instagram">
+              <svg width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M7 2C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5H7zm5 5a5 5 0 110 10 5 5 0 010-10zm6.5-.9a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z"/></svg>
+            </a>
+          </li>
+          <li>
+            <a href="#" aria-label="Twitter">
+              <svg width="20" height="20" viewBox="0 0 24 24"><path fill="currentColor" d="M22 5.9c-.8.4-1.6.6-2.5.8.9-.6 1.5-1.4 1.8-2.4-.9.5-1.8.9-2.8 1.1A4.4 4.4 0 0016 4c-2.5 0-4.5 2.1-4.5 4.6 0 .4 0 .8.1 1.1-3.7-.2-7-2-9.2-4.7-.4.7-.6 1.4-.6 2.2 0 1.6.8 3 2 3.9-.7 0-1.4-.2-2-.5v.1c0 2.2 1.5 4 3.6 4.4-.4.1-.8.2-1.2.2-.3 0-.6 0-.9-.1.6 1.9 2.4 3.3 4.5 3.3A8.9 8.9 0 012 19.5 12.6 12.6 0 008.3 21c7.6 0 11.7-6.4 11.7-12v-.5c.8-.6 1.5-1.3 2-2.1z"/></svg>
+            </a>
+          </li>
+        </ul>
+    </div>
+
+    <div class="footer-right">
+      <h3>Subscribe Now</h3>
+      <a href="#">Subscribe →</a>
+      <a href="#">Student →</a>
+      <a href="#">Gift →</a>
+    </div>
+  </footer>
 
 </body>
 </html>
