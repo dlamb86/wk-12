@@ -1,3 +1,4 @@
+Markdown
 # Communication Arts Design System Study
 
 A Design System Study
@@ -6,9 +7,9 @@ A Design System Study
 This is a project for the Web Development course at the Minneapolis College of Art and Design. In this project, I dissected the **Communication Arts** homepage and developed a simple component library and homepage recreation from that study.
 
 ## Project Links
-* [Initial Design Study (PDF)](./assets/communication-arts-web-study.pdf)
-* [Component Library](./components.html)
-* [Homepage Recreation](./index.html)
+* [Initial Design Study (PDF)](https://dlamb86.github.io/wk-12/assets/communication-arts-web-study.pdf)
+* [Component Library](https://dlamb86.github.io/wk-12/components.html)
+* [Homepage Recreation](https://dlamb86.github.io/wk-12/index.html)
 
 ## Author
 **Project Code:** Dimitri Lambros  
